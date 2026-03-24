@@ -56,5 +56,3 @@ Poniżej znajduje się szybka tabela najważniejszych endpointów REST dostępny
 | PUT | `/api/v1/tasks/{id}` | Zaktualizuj istniejące zadanie (body: `TodoTaskRequest`) — zwraca 200 lub 404 |
 | DELETE | `/api/v1/tasks/{id}` | Usuń zadanie — zwraca 204 |
 
-Sekcje oznaczone `(dev)` to pomocnicze endpointy przydatne w środowisku developerskim/testowym — nie powinny być wystawione publicznie w produkcji.
-
